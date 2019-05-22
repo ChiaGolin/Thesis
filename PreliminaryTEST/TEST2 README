@@ -1,0 +1,26 @@
+TEST2 README
+
+Iterative simultation of multiple flood bluetooth polling of different devices (not paired with the polling machine). The number of multiple bluetooth polling is defined by the user
+
+Required script:
+	- Test2.py (main program)
+	- L2ping.py (l2ping execution and data (max/min/avg and number osent packet) recovering
+	- Folder.py (creation of folder)
+	- mathmath.py (computation of max/min/avg)
+	- ErrorCounter.py (packet loss)
+
+main program: Test2.py (python3 Test2.py)
+
+Output: 	
+	- Running time collection file
+	- Packet loss collection file
+
+Further analysis:
+
+	- Counting Packets: number of succesfully transferred packets during the script run
+		- CountingPackets.py (main program)
+
+	- Mean RTT: RTT average after the multiple polling precesses are stopped
+		- MEAN.py (main program)
+	
+	

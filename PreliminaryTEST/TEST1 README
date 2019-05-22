@@ -1,0 +1,11 @@
+TEST1 README
+
+Iterative simulation of a polling bluetooth on different devices (not paired with the polling machine). For each run is created a file text containing mininumum, maximum and average RTT.
+
+Required script:
+	- Test1.py (main program)
+	- L2ping.py (l2ping execution and data (max/min/avg and number osent packet) recovering
+	- Folder.py (creation of folder)
+	- mathmath.py (computation of max/min/avg)
+
+Run Test1.py --> Go in the folder where is Test1.py and digit python3 Test1.py. All the other scripts 			 have to be insiede the same folder of Test1.py
